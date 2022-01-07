@@ -1,0 +1,187 @@
+    a {
+        text-decoration: none
+    }
+    
+    .rogo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        position: absolute;
+        height: 161.89px;
+        left: 19px;
+        right: 18px;
+        top: calc(50% - 161.89px/2 - 101.06px);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        height: 182px;
+        left: 29px;
+        right: 28px;
+        top: calc(50% - 182px/2 + 101px);
+    }
+    
+    .button {
+        width: 303px;
+        flex: 1;
+        background-color: #CD94B3;
+        border-radius: 15px;
+        margin-top: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 44px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #0D1834;
+    }
+    
+    .header {
+        position: absolute;
+        width: 375px;
+        height: 70px;
+        left: calc(50% - 375px/2 - 0.5px);
+        top: 0px;
+    }
+    
+    i {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6px 9px;
+        position: absolute;
+        width: 28.69px;
+        height: 30.75px;
+        left: 12px;
+        top: 35px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .headertext {
+        position: absolute;
+        width: 237px;
+        height: 20px;
+        left: calc(50% - 237px/2);
+        top: 35px;
+        /* Heading 1 */
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        /* or 140% */
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* sub */
+        color: #0D1834;
+    }
+    
+    .idpwbox {
+        width: 326px;
+        height: 178px;
+        margin-top: 110px;
+        margin-bottom: 38px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        margin-left: calc(50% - 306px/2);
+    }
+    
+    .inputbox {
+        width: 306px;
+        height: 39px;
+        background: #F7F8F9;
+        border: 0.5px solid #D5DDE0;
+        border-radius: 15px;
+        margin-top: 7px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .boxtitle {
+        flex: 1;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        /* sub */
+        color: #0D1834;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        height: 116px;
+        left: 29px;
+        right: 28px;
+        align-items: center;
+    }
+    
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: absolute;
+        height: 70px;
+        left: 18px;
+        right: 19px;
+        align-items: center;
+    }
+    
+    .space {
+        width: 323px;
+        height: 89px;
+    }
+    
+    .signinbox {
+        width: 326px;
+        height: 267px;
+        margin-top: 110px;
+        margin-bottom: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        margin-left: calc(50% - 306px/2);
+        position: relative;
+    }
+    
+    .idcheck {
+        width: 64px;
+        height: 26px;
+        left: 241px;
+        background: rgba(13, 24, 52, 0.7);
+        border-radius: 10px;
+        position: absolute;
+        margin: 10px 0px;
+        top: calc(50% - 44px/2 - 84px);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
